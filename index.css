@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#100A09 ;
+}
+.netflix-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0,0.1);
+}
+.logo-1{
+    font-size: 25px;
+    background-color: black;
+    color: #98090C;
+    padding: 10px;
+    padding-left: 200px;
+}
+.logo-1 a{
+    text-decoration: none;
+    color: #98090C ;
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    margin: 100px;
+}
+.ul1 li{
+    margin-left: 25px;
+}
+.ul1 li a{
+    color: white;
+    background-color: #98090C;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+.ul1 li a:hover{
+    background-color: white;
+    color: white;
+}
+.bgimg img{
+    height: 1000px;
+    width: 1520px;
+}
+.sec1{
+    color: white;
+    font-size: 25px;
+    height: 1px;
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0px 100px;
+    position: relative;
+    bottom: 800px;
+}
+.email-box1{
+    position: relative;
+    top: 30px;
+    border: 1px solid rgb(243, 204, 204);
+    width: 580px;
+    height: 35px;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+}
+.get-started{
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    border: 2px solid rgb(243, 204, 204);
+    width: 150px;
+    height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #C11119;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+}
+.sec2{
+    padding-left: 450px;
+    color: white;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 15px;
+    transition: background-color 0.5s;
+    
+}
+.box-1{
+    position: relative;
+    left: 0px;
+    top: 20px;
+    border: 2px solid rgb(243, 204, 204);
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #C11119;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+}
+.box-2{
+    position: relative;
+    left: 220px;
+    bottom: 43px;
+    border: 2px solid rgb(243, 204, 204);
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #C11119;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+}
+.sec2 :hover{   
+    background-color:  #210506;
+    color: white;
+
+}
+.sec3{
+    max-width: 1400px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    padding: 30px 30px;
+}
+.mov-box1{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    position: relative;
+    top: 15px;
+    left: 100px;
+    transition: background-color 0.5s;
+}
+.mov-box2{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    position: relative;
+    top: 15px;
+    left: 150px;
+    transition: background-color 0.5s;
+}
+.mov-box3{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    position: relative;
+    top: 15px;
+    left: 200px;
+    transition: background-color 0.5s;
+}
+.mov-box4{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    position: relative;
+    top: 15px;
+    left: 250px;
+    transition: background-color 0.5s;
+}
+.mov-box5{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    position: relative;
+    top: 15px;
+    left: 300px;
+    transition: background-color 0.5s;
+}
+.mov-box1:hover{
+    
+    background-color:  #C11119;
+    color: white;
+}
+
+.mov-box2:hover{
+    
+    background-color:  #C11119;
+    color: white;
+}
+
+.mov-box3:hover{
+    
+    background-color:  #C11119;
+    color: white;
+}
+
+.mov-box4:hover{
+    
+    background-color:  #C11119;
+    color: white;
+}
+
+.mov-box5:hover{
+    
+    background-color:  #C11119;
+    color: white;
+}
+
+.movie-img img{
+    border-radius: 10px;
+    height: 280px;
+    width: 200px;
+}
+.recently-added{
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border: 2px solid rgb(243, 204, 204);
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #C11119;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(204, 185, 185, 0.1);
+    
+    transition: background-color 0.5s;
+}
+.recently-added a {
+    text-decoration: none;
+    color: white;
+}
+.recently-added:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.get-started img{
+    height: 18px;
+    width: 15px;
+    position: relative;
+    bottom: 37px;
+    left: 60px;
+    transition: background-color 0.5s;
+}
+.get-started img:hover{
+    background-color: rgb(125, 41, 41);
+    color: white;
+}
+.sec4{
+    color: white;
+    text-align: left;
+    width: 1400px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 5px(0,0,0,0.5);
+    position: relative;
+    left: 100px;
+    
+}
+.sec4 h2{
+    position: relative;
+    left: 50px;
+}
+.sec4-box1{
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    border-radius: 9px;
+    color: beige;
+    position: relative;
+    left: 50px;
+    background-color: #20111E;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(32, 1, 54, 0.1);
+
+
+}
+.sec4-box2{
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    border-radius: 9px;
+    color: beige;
+    position: relative;
+    left: 75px;
+    background-color: #20111E;
+    box-shadow: 0px 2px 5px rgba(28, 1, 23, 0.1);
+}
+.sec4-box3{
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    border-radius: 9px;
+    color: beige;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+    background-color: #20111E;
+    box-shadow: 0px 2px 5px rgba(40, 6, 32, 0.1);
+}
+.sec4-box4{
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    border-radius: 9px;
+    color: beige;
+    position: relative;
+    left: 125px;
+    top: 15px;
+    background-color: #20111E;
+    box-shadow: 0px 2px 5px rgba(34, 5, 5, 0.1);
+}
+.sec4-box1 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+}
+.sec4-box2 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+}
+.sec4-box3 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+}
+.sec4-box4 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+}
+.sec5{
+    box-shadow: 1px 1px 4px rgba(236, 184, 184, 0.858);
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+.sec5 h3{
+    font-size: 30px;
+    color: white;position: relative;
+    left: 50px;
+    top: 5px;
+}
+.rect1{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect1 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect2{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect2 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect3{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect3 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect4{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect4 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect5{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect5 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect6{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect6 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+/*rect hover*/
+.rect1:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.rect2:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.rect3:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.rect4:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.rect5:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+.rect6:hover{
+    background-color: #2c1516;
+    color: aliceblue;
+}
+/*footer*/
+/* Footer styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
